@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"path": "utils"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "8. asyncawait. Цикл событий. Асинхронность в JS"
+  }
+}

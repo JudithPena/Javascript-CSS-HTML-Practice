@@ -1,0 +1,25 @@
+@import "vars";
+@import "reset";
+
+body {
+  min-width: 320px;
+  overflow-x: hidden;
+  color: $main_font_color;
+
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  padding: 0 25px;
+  min-width: 320px;
+  margin: 0 auto;
+}
+
+@import "header";
+
+@import "main";
+
+@import "article";
+
+@import "footer";
+
+@import "medias";

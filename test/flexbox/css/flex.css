@@ -1,0 +1,29 @@
+.wrapper{
+    height: 100%;
+    overflow: hidden;
+    min-height: 100%;
+    padding: 50px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.block{
+
+}
+.block-row{
+    display: flex;
+    justify-content: space-around;
+
+    border: 20px solid yellow;
+    margin: 0 0 20px 0;
+}
+.block-column{
+    border: 20px solid thistle;
+}
+.block-item{
+    background-color: turquoise;
+    padding: 50px;
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+}

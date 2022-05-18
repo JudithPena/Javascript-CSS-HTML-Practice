@@ -1,0 +1,8 @@
+body {
+  padding: 30px;
+}
+.block {
+  height: 300px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px black;
+}

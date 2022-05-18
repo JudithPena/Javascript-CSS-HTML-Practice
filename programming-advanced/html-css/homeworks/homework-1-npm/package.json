@@ -1,0 +1,27 @@
+{
+  "name": "project-x",
+  "version": "1.0.0",
+  "description": "Anton Suj fe_2",
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/suj.anton/project1.git"
+  },
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Anton Suj",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.0.2",
+    "jquery": "^3.6.0",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.27.4",
+    "eslint": "^7.31.0",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.0.0",
+    "sass": "^1.35.2"
+  }
+}

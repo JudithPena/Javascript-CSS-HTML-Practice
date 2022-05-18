@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Styling HTML Forms</title>
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <button type="button">Button</button>
+    <form class="form" action="">
+      <label for="userName"> Your name</label>
+      <input
+        class="form-element"
+        type="text"
+        name="user-name"
+        id="userName"
+        placeholder="Write Your Name"
+        value="Uasya"
+        required
+      />
+      <label>
+        Your Email
+        <input type="email" name="user-email" id="userEmail" />
+      </label>
+      <label>
+        Your pass
+        <input type="password" name="user-pass" id="userPass" minlength="8" />
+        <label>
+          Your tel
+          <input type="tel" name="user-tel" id="userTel" pattern="123" />
+        </label>
+      </label>
+
+      <label>
+        Your count
+        <input type="number" name="user-count" id="userCount" />
+      </label>
+      <label>
+        Your count range
+        <input type="range" min="1000" max="10000" step="1000" />
+      </label>
+      <select name="chooser" id="userchoise">
+        <option value="1">1</option>
+        <option value="2" selected>2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+      <fieldset class="form-group">
+        <legend class="form-legend">Filed group</legend>
+        <input type="radio" name="radio-choice" />
+        <label for="radio-choice2"> Second</label>
+        <input
+          type="radio"
+          name="radio-choice"
+          id="radio-choice2"
+          checked
+          value="green"
+        />
+        <input type="radio" name="radio-choice" />
+        <input type="radio" name="radio-choice" />
+        <input type="radio" name="radio-choice" />
+        <input type="radio" name="radio-choice" />
+      </fieldset>
+      <!-- <button type="submit">send</button> -->
+      <textarea
+        name=""
+        id=""
+        cols="30"
+        rows="10"
+        placeholder="Help"
+        maxlength="23"
+      ></textarea>
+      <input type="submit" value="send" />
+      <input type="reset" value="reset" />
+    </form>
+  </body>
+</html>

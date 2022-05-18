@@ -1,0 +1,137 @@
+.smodal.open .modal-overlay,
+.smodal.open .modal-window {
+  opacity: 1;
+  z-index: 10;
+}
+.smodal.hide .modal-overlay,
+.smodal.hide .modal-window {
+  opacity: 1;
+  z-index: 10;
+}
+.smodal.open .modal-window {
+  transform: translateY(100px);
+}
+.smodal.open .modal-overlay {
+  background: rgba(98, 187, 71, 0.5);
+}
+.smodal.hide .modal-window {
+  transform: translateY(-200px);
+}
+.smodal.hide .modal-overlay {
+  background: rgba(98, 187, 71, 0);
+}
+
+.modal-window,
+.modal-overlay {
+  opacity: 0;
+  z-index: -1;
+}
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(98, 187, 71, 0);
+  transition: background 0.4s ease-in-out;
+}
+.header {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  background-image: url(../img/logo.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  align-self: flex-start;
+}
+.header-btn {
+  height: 20%;
+}
+.hide {
+  display: none;
+}
+
+.modal-window {
+  width: 50%;
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding: 5px 10px;
+  transform: translateY(-250px);
+  transition: transform 0.4s ease-in-out;
+}
+.modal-header {
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.modal-title {
+  font-size: 1.5rem;
+}
+.btn-close {
+  cursor: pointer;
+}
+.modal-content {
+  margin-bottom: 10px;
+}
+.modal-form {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+.modal-Email {
+  width: 35%;
+}
+.modal-password {
+  width: 35%;
+}
+.modal-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.entry-btn {
+  margin-right: 10px;
+}
+.filter-form {
+  margin: 50px auto;
+  width: 50%;
+  background-color: #d6dee6;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px;
+  border-radius: 5px;
+}
+.filter-btn {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ********** */
+
+.table {
+  background-color: rgba(177, 207, 8, 0.5);
+  width: 90%;
+  margin: 0 auto;
+}
+.title {
+  text-align: center;
+}
+.flex-contaite-for-cards {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.card {
+  height: 200px;
+  margin: 15px;
+  min-width: 330px;
+  width: 30%;
+}

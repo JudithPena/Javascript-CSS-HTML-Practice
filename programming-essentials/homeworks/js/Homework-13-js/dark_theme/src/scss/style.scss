@@ -1,0 +1,62 @@
+@import "vars";
+@import "reset";
+
+.body {
+  min-width: 320px;
+  overflow-x: hidden;
+  color: $main_font_color;
+  transition: 1s;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  padding: 0 25px;
+  min-width: 320px;
+}
+.active {
+  display: block;
+}
+@import "header";
+
+@import "main";
+
+@import "aside";
+
+@import "footer";
+
+@import "medias";
+
+.change-theme {
+  // position: absolute;
+  // left: 5px;
+  // top: 5px;
+  display: inline-block;
+  padding: 10px 25px;
+  cursor: pointer;
+  background-color: $main_font_color;
+  color: white;
+}
+.dark-theme {
+  background: #111;
+  color: #f4f4f4;
+  a {
+    color: #f4f4f4;
+  }
+  p {
+    color: #f4f4f4;
+  }
+  footer {
+    background: #373737;
+    color: #f4f4f4;
+  }
+  button {
+    background-color: #f4f4f4;
+  }
+  button:after {
+    background-color: #373737;
+    box-shadow: 0 4px 0 0 #373737, 0 8px 0 0 #373737;
+  }
+  .change-theme {
+    background-color: #f4f4f4;
+    color: #373737;
+  }
+}

@@ -1,0 +1,49 @@
+/* table {
+  border: 1px solid black;
+  border-collapse: separate;
+  width: 100%;
+}
+td,
+th {
+  border: 1px solid black;
+}
+.blue-bgd {
+  background-color: blue;
+}
+.yellow-bgd {
+  background-color: yellow;
+}
+.red-bgd {
+  background-color: red;
+}
+.flex-container {
+  list-style: none;
+  height: 400px;
+  padding: 15px;
+  border: 2px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  /* align-content: flex-start;
+  flex-grow: 1;
+} */
+/* .flex-element {
+  width: 100px;
+  background-color: cornflowerblue;
+  margin: 10px;
+  padding: 50px 0;
+} */
+.flex-container {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  flex-direction: column;
+}
+/* .flex-element:nth-child(3) {
+  background-color: blue;
+  margin-left: auto;
+} */
+.flex-element {
+  background-color: crimson;
+}

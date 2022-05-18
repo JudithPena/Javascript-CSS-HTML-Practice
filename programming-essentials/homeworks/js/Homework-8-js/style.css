@@ -1,0 +1,35 @@
+.inputClass:focus {
+  border: 3px solid rgb(55, 238, 55);
+  outline: none;
+  background-color: lightblue;
+}
+.error {
+  border: 3px solid red;
+  outline: none;
+  background-color: rgb(129, 62, 141);
+}
+.error-text {
+  color: brown;
+  display: inline-block;
+  padding-right: 30px;
+}
+p {
+  display: inline;
+  margin-right: 10px;
+}
+span {
+  margin-right: 10px;
+}
+.myDiv {
+  margin-top: 25px;
+}
+.newDiv {
+  display: inline-block;
+  padding-right: 30px;
+}
+.myInput {
+  display: block;
+}
+#myInput {
+  display: block;
+}

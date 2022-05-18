@@ -1,0 +1,11 @@
+.container {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+.price {
+  margin-top: 100px;
+  margin-left: 100px;
+}

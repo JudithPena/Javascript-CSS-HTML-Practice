@@ -1,0 +1,38 @@
+@import "vars";
+
+.shots {
+    margin-top: 77.5px;
+    &__title {
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 22px;
+    }
+    &__link {
+      font-weight: bold;
+      font-size: 13px;
+      line-height: 22px;
+      color: $main_font_color;
+      text-decoration: none;
+      text-transform: uppercase;
+      display: none;
+    }
+    &__inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 35px;
+    }
+    &__img {
+      max-width: 301px;
+      max-height: 301px;
+  
+      display: none;
+    }
+    &__img:first-of-type {
+      display: inline;
+    }
+  }
+  
+  .aside {
+    padding-bottom: 42px;
+  }

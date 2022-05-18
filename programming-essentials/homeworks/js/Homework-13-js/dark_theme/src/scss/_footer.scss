@@ -1,0 +1,43 @@
+@import "vars";
+.footer {
+    background-color: black;
+    padding-bottom: 47px;
+    padding-top: 38px;
+    &__title {
+      color: $white_color;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 22px;
+      text-align: center;
+    }
+    &__text {
+      text-align: center;
+      font-size: 12px;
+      line-height: 20px;
+      margin-top: 8px;
+      color: #b9b9b9;
+    }
+    &__contacts {
+      color: #b9b9b9;
+      text-align: center;
+      font-size: 14px;
+      line-height: 24px;
+      margin-top: 25px;
+    }
+    &__contacts a {
+      text-decoration: none;
+      color: inherit;
+    }
+    &__icons {
+      margin-top: 26px;
+      display: flex;
+      justify-content: center;
+    }
+    &__icon {
+      margin-right: 6px;
+    }
+    &__icon:last-child {
+      margin: 0;
+    }
+  }

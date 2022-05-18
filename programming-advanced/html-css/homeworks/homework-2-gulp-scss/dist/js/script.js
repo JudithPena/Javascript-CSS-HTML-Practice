@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".header__btn").click(function(e){$(".header__btn, .header__list").toggleClass("active")})});

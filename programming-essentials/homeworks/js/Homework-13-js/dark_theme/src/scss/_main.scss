@@ -1,0 +1,40 @@
+@import "vars";
+.posts {
+    margin-top: 38px;
+    &__title {
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 22px;
+      text-transform: uppercase;
+    }
+    &__item:first-child {
+      margin-top: 23px;
+    }
+    &__item {
+      margin-top: 28.5px;
+    }
+    &__item:last-child {
+      display: none;
+    }
+    &__subtitle {
+      margin-top: 11px;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 30px;
+    }
+    &__text {
+      font-size: 11px;
+      line-height: 20px;
+      color: #7c7c7c;
+    }
+    &__description {
+      display: none;
+      margin-top: 13px;
+      color: #5c5c5c;
+      font-size: 14px;
+      line-height: 26px;
+    }
+  }
+  .main {
+    margin-bottom: 60px;
+  }

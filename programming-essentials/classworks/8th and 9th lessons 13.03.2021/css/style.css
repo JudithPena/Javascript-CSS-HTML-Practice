@@ -1,0 +1,112 @@
+.page-title {
+  text-align: center;
+
+  position: relative;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.page-title::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -15px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: -1;
+}
+.page-title::first-letter {
+  font-size: 3em;
+  color: red;
+}
+.page-title::first-line {
+  font-size: 3em;
+  color: red;
+}
+/* .page-title::after {
+    content: "";
+    position: absolute;
+    left: -15px;
+    top: 17px;
+    width: 2px;
+    height: 2px;
+    background-color: #000;
+ } */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px skyblue;
+}
+
+.list-item :first-child:not(p) {
+  color: #0f0;
+}
+.list-item:last-child {
+  font-size: 1.5em;
+}
+.list-item p:first-of-type {
+  text-decoration: underline slateblue;
+}
+.list-item p:last-of-type {
+  text-transform: uppercase;
+}
+.list-item:nth-child(even) {
+  color: #f00;
+}
+.list-item:nth-child(odd) {
+  color: #00f;
+}
+.list-item:nth-child(2n + 1) {
+  /* color: #0f0; */
+}
+/* 
+ :hover,
+ :active
+ 
+ only for links
+ :link,
+ :visited
+ 
+ for interactive elements
+ :focus,
+ 
+ */
+.link {
+  display: flex;
+  margin: 0 auto;
+  font-style: 30px;
+  font-weight: 700;
+  width: 100px;
+  padding: 10px;
+  color: blue;
+  background-color: #000;
+  background-color: gold;
+}
+.link:link:visited:hover:active {
+  color: blue;
+  background-color: #000;
+  background-color: gold;
+}
+.link:hover {
+  background-color: #000;
+}
+.link:active {
+  background-color: gold;
+}
+.link:active::after {
+  content: "->";
+  margin-left: 5px;
+  font-size: 2em;
+}
+.link:focus {
+  border: 2px dashed red;
+}

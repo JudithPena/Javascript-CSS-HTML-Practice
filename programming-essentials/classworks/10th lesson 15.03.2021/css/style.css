@@ -1,0 +1,17 @@
+.form {
+  margin: 30px auto;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: rgb(182, 121, 121);
+  padding: 15px;
+}
+.form-element:invalid {
+  box-shadow: none;
+  border: 2px dotted red;
+}
+.form-element:focus {
+  color: blue;
+  font-size: 100px;
+}

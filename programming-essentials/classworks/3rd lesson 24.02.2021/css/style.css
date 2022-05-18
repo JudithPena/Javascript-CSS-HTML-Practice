@@ -1,0 +1,68 @@
+h1.page-title {
+  color: chartreuse;
+  text-align: center;
+}
+.page-title {
+  color: blueviolet;
+  text-transform: uppercase;
+}
+.paragraph {
+  font-size: 20px;
+  line-height: 1.5;
+
+  padding: 10px;
+  margin: 10px;
+}
+/*
+tag, psedo-elements -> 1
+class, psedo-class -> 10
+id  -> 100
+!important -> MAX
+*/
+.list a {
+  text-decoration: none;
+}
+.list-item > a {
+  font-size: 20px;
+}
+.list-link {
+  color: red;
+}
+.page-body {
+  margin: 0;
+  font-family: sans-serif;
+}
+.page-nav {
+  background-color: rgb(38, 6, 56);
+  padding: 10px 30px;
+  text-align: center;
+}
+.logo {
+  font-size: 30px;
+  color: rgb(149, 42, 192);
+  text-transform: capitalize;
+  font-variant: small-caps;
+  text-align: center;
+}
+.list {
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.list-item {
+  display: inline;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.picture {
+  width: 100%;
+  height: 400px;
+}
