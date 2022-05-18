@@ -1,0 +1,147 @@
+
+.table {
+    background-color: hsl(99, 49%, 85%);
+    border: 2px solid rgb(153, 223, 248);
+    
+    width: 98%;
+    margin: 0 auto;
+    padding: 5px;
+
+    min-height: 320px;
+    border-radius: 5px;
+  }
+
+  .table-title {
+    text-align: center;
+    font: 22px/26px HelveticaNeue-Bold, sans-serif;  //смотри шрифт!
+    text-transform: uppercase;
+    color: rgb(153, 223, 248);
+    -webkit-text-stroke-width: 0.7px;
+    -webkit-text-stroke-color: #1db7ed;
+    margin: 20px;
+  }
+  .flex-contaite-for-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .card {
+    margin: 15px;
+    min-width: 310px;
+    width: 30.5%;
+    border-radius: 5px;
+  }
+  
+
+///////////////////////////
+
+.visit-create{
+    padding: 5px 5px 15px;
+    width: 100%;
+   
+
+}
+
+.visit-header{
+    margin-top: 9px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.close-visit-js{
+    margin-right: 5px;
+    margin-left: 5px;
+    color: #1DB7ED;
+}
+
+.open-visit-js{
+    margin-left: 5px;
+    color:  #1DB7ED;
+}
+
+.visit-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.visit-top span{
+    font: 19px/13px HelveticaNeue-Bold,sans-serif;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 20px 0 10px;
+    color: #62bb47;
+}
+
+.visit-block{
+    width: 100%;
+    padding: 0 5px;
+    margin: 7px 0;
+}
+
+.visit-btn-show{
+    width: 50%;
+}
+
+.visit-line{
+    width: 30%;
+    height: 1px;
+    background-color: #474747;
+    margin: 0 auto;
+}
+
+.up_message{
+    font: 15px/15px HelveticaNeue-Bold, sans-serif;
+    color: #474747;
+    margin: 0px;
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+.visit-selectDoctors-up{
+    color:  #1DB7ED;
+    text-transform: uppercase;
+}
+
+.bottom_message{
+    font: 9px/10px HelveticaNeue,sans-serif;
+    color: #474747;
+    margin: 0px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.visit-show{
+    background: #62bb47;
+    display: block;
+    padding: 3px 13px;
+    text-align: center;
+    font: 13px/14px HelveticaNeue-Medium,sans-serif;
+    color: #fff;
+    border: 1px solid #62bb47;
+    border-radius: 20px;
+    -webkit-transition: .3s color,.3s background;
+    -o-transition: .3s color,.3s background;
+    transition: .3s color,.3s background;
+    cursor: pointer;
+}
+
+.visit-selectDoctors{
+    color:  #1DB7ED;
+}
+
+.visit-pressure, .visit-body-mass-index, .visit-heart-disease, .visit-age, .visit-date-last-visit{
+    display: none;
+}
+
+.visit-footer{
+    display: none;
+}
+
+
+.visit-footer-activ{
+    display: block;
+}
